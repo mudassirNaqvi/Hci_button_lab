@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+/* Affordance */
+#actionBtn {
+    padding: 10px 20px;
+    border: 3px solid #007bff;
+    background: white;
+    cursor: pointer;
+}
+
+/* Mapping */
+#status {
+    margin-top: 10px;
+    border: 3px solid #28a745;
+    padding: 10px;
+}
+
+/* Feedback */
+.click-feedback {
+    background-color: #ffc107;
+}
+
+/* Constraint */
+.constrained {
+    border-color: #dc3545;
+}
+
+/* Signifier */
+.disabled-signifier {
+    background-color: #6f42c1;
+    color: white;
+}
